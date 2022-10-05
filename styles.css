@@ -93,7 +93,7 @@ p {
   }
 .small-text {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 0;
   font-size: 12px;
   font-weight: 900;
