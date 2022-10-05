@@ -10,6 +10,9 @@ body, .side-menu {
   background-color: #1DA1F2;
 }
 
+.favicon{
+  color:#1DA1F2;
+}
 .container-all{
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
