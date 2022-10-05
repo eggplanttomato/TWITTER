@@ -68,7 +68,7 @@ for (var i = 0; i < user.tweets.length; i++) {
   const tweet = document.createElement('div')
   tweet.className = 'tweet-container'
   tweet.innerHTML = `<div class="box"><div><img class="small-avatar" src="${user.avatarURL}" alt="check"/></div>
-<div class ="small-text"><h3>${user.displayName} </h3><img class= "small-icon" src="assets/check.png" alt="check"/></div><span class="user-info">${user.userName} • ${month.toLocaleString('default', { month: 'short' })} ${day}</span><div class = "dots"><span class="three-dots">•••</span></div></div>
+<div class ="small-text"><h3>${user.displayName} </h3><img class= "small-icon" src="assets/check.png" alt="check"/></div><div class="user-info">${user.userName} • ${month.toLocaleString('default', { month: 'short' })} ${day}</div><div class = "dots"><span class="three-dots">•••</span></div></div>
 
 <div class="tweet-box"><div class="tweet-content"><p>${user.tweets[i].text}</p><div class="icon-set">
 <a class="blue-icon" href="#"><i class="fa-regular fa-comment"></i></a>
